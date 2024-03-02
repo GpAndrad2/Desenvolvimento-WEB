@@ -1,0 +1,52 @@
+/* Estilização geral do site */
+
+/* Define a fonte padrão como Arial e remove margens, preenchimentos e bordas */
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilização do HEADER da página */
+
+/* Define o plano de fundo do cabeçalho como preto */
+header {
+    background: black;
+}
+
+/* Estilização do LOGOTIPO */
+
+/* Define a largura do logotipo como 45% do elemento pai */
+.logo {
+    width: 250px;
+    position: relative;
+    left: 150px;
+}
+
+/* Estilização do MENU */
+
+.titulo-nadal{
+    font-family: "Arial";
+    margin: 50px 50px 20px;
+}
+
+.tabela, th, td{
+    border-collapse: collapse; /* define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+    margin-left: 50px;
+    text-align: center;
+}
+
+th{
+    background-color: lightgray;
+}
+
+hr{
+    width: 50%;
+    margin-left: 50px;
+    border-width: medium;
+}
+
+
